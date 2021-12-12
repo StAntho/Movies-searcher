@@ -1,0 +1,26 @@
+#answer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3vw 0;
+}
+
+.card {
+    width: 25vw;
+    padding: .5% 2%;
+}
+
+.card h4 {
+    text-align: right;
+}
+
+.card img {
+    width: 20vw;
+    height: 28vw;
+    object-fit: cover;
+}
+
+.titleyear {
+    display: flex;
+    justify-content: space-between;
+}

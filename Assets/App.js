@@ -18,9 +18,16 @@ const $key = "9ddde0b3";
                 console.log(element.Title);
                 document.getElementById("answer").innerHTML += `
                     <div class="card">
-                        <h2 class="title">`+element.Title+`</h2><p class="type">`+element.Type+`</p>
-                        <img  class="poster" src="`+element.Poster+`"/>
-                        <p class="genre">genre de film</p><p class="year">`+element.Year+`</p>
+                        <h4>`+element.Type+`</h4>
+                        <img src="`+element.Poster+`" class="card-img-top poster" alt="`+element.Title+`">
+                        <div class="card-body">
+                        <div class="titleyear">
+                            <h2 class="card-title">`+element.Title+`</h2>
+                            <p>`+element.Year+`</p>
+                        </div>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">See More</a>
+                        </div>
                     </div>
                 `; 
             });
